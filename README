@@ -1,0 +1,22 @@
+* Author: Mike Cardwell <dnsblsearch@grepular.com> https://secure.grepular.com/
+
+DNSBLSearch is a simple Perl script for performing large numbers of RBL lookups
+very quickly. It's useful if you have a set of IP addresses of mail servers and
+you want to be automatically alerted if any of them become listed on an RBL.
+
+The script comes with a default list of IP addresses and popular RBLs. If you
+run it before making any changes it should display an output similar to this:
+                
+	127.0.0.2 is listed on blackholes.five-ten-sg.com
+	127.0.0.2 is listed on spamsources.fabel.dk
+	127.0.0.2 is listed on combined.njabl.org
+	127.0.0.2 is listed on bl.spamcop.net
+	127.0.0.2 is listed on dnsbl.sorbs.net
+	127.0.0.2 is listed on zen.spamhaus.org
+                
+127.0.0.2 is one of the example IP addresses to look up, and most RBLs list
+127.0.0.2 for testing purposes. You would change that IP in the script for
+your own.
+
+The script should work on any default Perl installation as it uses no
+non-standard Perl packages.
