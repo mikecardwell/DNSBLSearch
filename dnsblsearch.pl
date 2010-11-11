@@ -39,7 +39,6 @@ use Net::DNS;
      b.barracudacentral.org
      bl.spamcop.net
      bl.spameatingmonkey.net
-     blackholes.five-ten-sg.com
      combined.njabl.org
      dnsbl.sorbs.net
      dnsbl-1.uceprotect.net
