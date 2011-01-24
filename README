@@ -1,4 +1,4 @@
-* Author: Mike Cardwell <dnsblsearch@grepular.com> https://secure.grepular.com/
+* Author: Mike Cardwell <dnsblsearch@grepular.com> https://grepular.com/
 
 DNSBLSearch is a simple Perl script for performing large numbers of RBL lookups
 very quickly. It's useful if you have a set of IP addresses of mail servers and
